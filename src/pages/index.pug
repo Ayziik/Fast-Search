@@ -1,0 +1,60 @@
+extends masters/layout
+
+block main
+    main
+        section(class="advantages")
+            div(class="container")
+                div(class="row pt-4 pb-4")
+                    div(class="col-sm-12 col-md-6 col-lg-6 mb-3")
+                        h3(class="advantages__title") We are your <span class="red-text">best</span> option
+                        p(class="advantages__description") 
+                            | Aliquam nibh arcu, pharetra et ipsum eget, finibus suscipit odio. Morbi ornare posuere rutrum. Praesent mauris nunc, blandit a enim in, faucibus laoreet nisi. Curabitur volutpat elit sit amet molestie eleifend. Sed rutrum odio nec neque rhoncus dictum. 
+                            | Donec vitae <a class="red-text">sollicitudin</a> nunc. Pellentesque sed libero quam.
+                    div(class="col-sm-12 col-md-6 col-lg-6")
+                        h3(class="advantages__title") <span class="red-text">Clients</span> choose us!
+                        p(class="advantages__description") 
+                            | Maecenas ut sem ac tellus tempus hendrerit. Curabitur suscipit lorem in turpis rutrum facilisis. Sed risus erat, varius et orci non, eleifend ultricies tortor. 
+                            | Etiam venenatis purus turpis, eu semper neque placerat ut.<br><br>
+                            | Curabitur suscipit ligula at metus malesuada iaculis. <a class="red-text">Learn more</a>
+
+        section(class="services")
+            div(class="container pt-4 pb-4")
+                h2(class="services__title") How can we help?
+                div(class="row")
+                    div(class="services__item services__item--download col-6 col-sm-6 col-md-6 col-lg-3")
+                        p Cras in interdum nisi, vitae blandit lectus. In imperdiet dolor eu justo rhoncus, id auctor lacus.
+                    div(class="services__item services__item--signs col-6 col-sm-6 col-md-6 col-lg-3")
+                        p Duis vitae lorem nulla. Aenean lacinia purus neque, eu pulvinar ex placerat nec. Nam elementum.
+                    div(class="services__item services__item--caddy col-6 col-sm-6 col-md-6 col-lg-3")
+                        p Nunc lectus consectetur nulla, quis dictum augue leo eu mauris. Nulla pretium felis non dui ultrices.
+                    div(class="services__item services__item--battery col-6 col-sm-6 col-md-6 col-lg-3")
+                        p Praesent ac neque laoreet, sagittis ipsum vitae, ullamcorper nibh. Mori dictum orci ligula, non aliquet.
+
+        section(class="projects")
+            div(class="container pt-4 pb-4")
+                div(class="row projects__slider-control pr-3 pl-3")
+                    h2(class="projects__title") Our <span class="red-text">projects</span>
+                    div(class="row m-0")
+                        svg(class="prev-slide" width="18" height="18")
+                            use(xlink:href="/img/sprite.svg#prev-slide")
+                        svg(class="next-slide" width="18" height="18")
+                            use(xlink:href="/img/sprite.svg#next-slide")
+
+                div(class="row projects__cards")
+                    div(class="card col-12 col-sm-6 col-md-6 col-lg-3" style="width: 235px;")
+                        img(src="./img/city1.jpg" alt="City" class="card-img-top")
+                        div(class="card-body")
+                            p(class="card-text") Duis suscipit venenatis
+                    div(class="card col-12 col-sm-6 col-md-6 col-lg-3" style="width: 235px;")
+                        img(src="./img/city1.jpg" alt="City" class="card-img-top")
+                        div(class="card-body")
+                            p(class="card-text") Ligula Dignissim
+                    div(class="card col-12 col-sm-6 col-md-6 col-lg-3" style="width: 235px;")
+                        img(src="./img/city1.jpg" alt="City" class="card-img-top")
+                        div(class="card-body")
+                            p(class="card-text") Dapibus sit amet
+                    div(class="card col-12 col-sm-6 col-md-6 col-lg-3" style="width: 235px;")
+                        img(src="./img/city1.jpg" alt="City" class="card-img-top")
+                        div(class="card-body")
+                            p(class="card-text") Quisque!
+                

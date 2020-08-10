@@ -1,0 +1,8 @@
+@mixin button ($width, $height, $bgColor) {
+  display: block;
+  width: $width;
+  height: $height;
+  background-color: $bgColor;
+  color: $white;
+  text-transform: uppercase;
+}

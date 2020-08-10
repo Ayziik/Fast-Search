@@ -1,0 +1,74 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 235px;
+  background-color: $black;
+  color: $text-light-grey !important;
+  font-size: 0.75rem;
+
+  &__title {
+    color: $white;
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+
+  &__thumbnail {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+
+    &--about {
+      float: left;
+    }
+  }
+
+  &__blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__post {
+    display: flex;
+    flex-basis: 48%;
+    margin-right: 5px;
+  }
+
+  &__address {
+    margin-bottom: 0 !important;
+  }
+
+  &__email {
+    display: inline-block;
+    margin-bottom: 20px;
+
+    &:hover {
+      color: $white !important;
+    }
+  }
+
+  &__social {
+    ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        margin-right: 15px;
+      }
+    }
+
+    svg {
+      fill: $text-light-grey;
+
+      &:hover {
+        cursor: pointer;
+        fill: $red;
+      }
+    }
+  }
+}
